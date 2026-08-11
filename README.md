@@ -1,9 +1,6 @@
 # 👋 Olá
 
-Sou [seu nome], um desenvolvedor com foco em software de baixo nível
-e desenvolvimento web full-stack.
-
-## 💻 Tecnologias
+Sou Vinicius, um desenvolvedor com foco em desenvolvimento web full-stack.
 
 ### Linguagens
 
