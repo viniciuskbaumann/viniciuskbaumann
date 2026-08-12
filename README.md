@@ -19,3 +19,13 @@ Sou Vinicius, um desenvolvedor com foco em desenvolvimento web full-stack.
 <p align="left">
   <img src="https://skillicons.dev/icons?i=sqlite,postgres" />
 </p>
+
+### Estudando
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux,kali,bash,python,docker" />
+</p>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=wireshark,burpsuite,metasploit,nmap,splunk" />
+</p>
