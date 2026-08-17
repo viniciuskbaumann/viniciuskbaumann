@@ -5,7 +5,7 @@ Sou Vinicius, um desenvolvedor com foco em desenvolvimento web full-stack.
 ### Linguagens
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,go,ts,html,css,java,js,ruby,jquery,nodejs" />
+  <img src="https://skillicons.dev/icons?i=ts,html,css,java,js,jquery,nodejs" />
 </p>
 
 ### Bibliotecas e ferramentas
