@@ -1,0 +1,242 @@
+<svg
+    width="1200"
+    height="330"
+    viewBox="0 0 1200 330"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+
+        <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330">
+            <stop offset="0%" stop-color="#05080D"/>
+            <stop offset="55%" stop-color="#0A0F16"/>
+            <stop offset="100%" stop-color="#05080D"/>
+        </linearGradient>
+
+        <linearGradient id="border" x1="0" y1="0" x2="1200" y2="0">
+            <stop offset="0%" stop-color="#F2C94C" stop-opacity="0"/>
+            <stop offset="25%" stop-color="#F2C94C"/>
+            <stop offset="65%" stop-color="#00D9FF"/>
+            <stop offset="100%" stop-color="#00D9FF" stop-opacity="0"/>
+        </linearGradient>
+
+        <filter id="amberGlow">
+            <feGaussianBlur stdDeviation="2.2" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <filter id="cyanGlow">
+            <feGaussianBlur stdDeviation="1.7" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+        <pattern
+            id="scanlines"
+            width="4"
+            height="4"
+            patternUnits="userSpaceOnUse"
+        >
+            <rect
+                width="4"
+                height="1"
+                fill="#FFFFFF"
+                opacity="0.018"
+            />
+        </pattern>
+
+    </defs>
+
+
+    <!-- BACKGROUND -->
+
+    <rect
+        width="1200"
+        height="330"
+        rx="10"
+        fill="url(#bg)"
+    />
+
+    <rect
+        width="1200"
+        height="330"
+        rx="10"
+        fill="url(#scanlines)"
+    />
+
+
+    <!-- TERMINAL TOP -->
+
+    <rect
+        x="24"
+        y="22"
+        width="1152"
+        height="30"
+        rx="5"
+        fill="#0D131B"
+        stroke="#182230"
+    />
+
+    <circle cx="44" cy="37" r="4" fill="#FF5F57"/>
+    <circle cx="59" cy="37" r="4" fill="#FEBC2E"/>
+    <circle cx="74" cy="37" r="4" fill="#28C840"/>
+
+    <text
+        x="94"
+        y="42"
+        font-family="monospace"
+        font-size="12"
+        fill="#6E7681"
+    >
+        vinicius@github: ~/profile
+    </text>
+
+
+    <!-- COMMAND -->
+
+    <text
+        x="45"
+        y="84"
+        font-family="monospace"
+        font-size="14"
+        fill="#39FF14"
+        filter="url(#cyanGlow)"
+    >
+        vinicius@github:~$
+    </text>
+
+    <text
+        x="215"
+        y="84"
+        font-family="monospace"
+        font-size="14"
+        fill="#C9D1D9"
+    >
+        ./init-profile.sh
+    </text>
+
+
+    <!-- SYSTEM OUTPUT -->
+
+    <text
+        x="45"
+        y="110"
+        font-family="monospace"
+        font-size="12"
+        fill="#6E7681"
+    >
+        [INFO] initializing developer environment...
+    </text>
+
+    <text
+        x="45"
+        y="128"
+        font-family="monospace"
+        font-size="12"
+        fill="#00D9FF"
+    >
+        [ OK ] profile loaded successfully
+    </text>
+
+
+    <!-- ASCII VINICIUS -->
+
+    <g
+        font-family="'Courier New', monospace"
+        font-weight="700"
+        font-size="18"
+        fill="#F2C94C"
+        filter="url(#amberGlow)"
+    >
+
+        <text x="80" y="170" xml:space="preserve">
+db    db d888888b d8b   db d888888b  .o88b. d888888b db    db .d8888.
+        </text>
+
+        <text x="80" y="192" xml:space="preserve">
+88    88   `88'   888o  88   `88'   d8P  Y8   `88'   88    88 88'  YP
+        </text>
+
+        <text x="80" y="214" xml:space="preserve">
+Y8    8P    88    88V8o 88    88    8P         88    88    88 `8bo.
+        </text>
+
+        <text x="80" y="236" xml:space="preserve">
+`8b  d8'    88    88 V8o88    88    8b         88    88    88   `Y8b.
+        </text>
+
+        <text x="80" y="258" xml:space="preserve">
+ `8bd8'    .88.   88  V888   .88.   Y8b  d8   .88.   88b  d88 db   8D
+        </text>
+
+        <text x="80" y="280" xml:space="preserve">
+   YP    Y888888P VP   V8P Y888888P  `Y88P' Y888888P ~Y8888P' `8888Y'
+        </text>
+
+    </g>
+
+
+    <!-- FOOTER -->
+
+    <rect
+        x="45"
+        y="301"
+        width="1110"
+        height="1"
+        fill="url(#border)"
+    />
+
+    <text
+        x="45"
+        y="321"
+        font-family="monospace"
+        font-size="11"
+        fill="#00D9FF"
+    >
+        FULL STACK DEVELOPER
+    </text>
+
+    <text
+        x="222"
+        y="321"
+        font-family="monospace"
+        font-size="11"
+        fill="#586069"
+    >
+        //
+    </text>
+
+    <text
+        x="250"
+        y="321"
+        font-family="monospace"
+        font-size="11"
+        fill="#C9D1D9"
+    >
+        JAVA • SPRING • NODE • REACT • TYPESCRIPT • LINUX • CLOUD • SECURITY
+    </text>
+
+    <circle
+        cx="1125"
+        cy="317"
+        r="4"
+        fill="#39FF14"
+        filter="url(#cyanGlow)"
+    />
+
+    <text
+        x="1137"
+        y="321"
+        font-family="monospace"
+        font-size="10"
+        fill="#39FF14"
+    >
+        ONLINE
+    </text>
+
+</svg>
